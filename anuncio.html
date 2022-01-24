@@ -12,12 +12,22 @@
       <div class="contenedor contenido-header">
         <div class="barra">
           <a href="/"><img src="build/img/logo.svg" alt="Logo pagina" /></a>
-          <nav class="navegacion">
-            <a href="nosotros.html">Nosotros</a>
-            <a href="anuncios.html">Anuncios</a>
-            <a href="blog.html">Blog</a>
-            <a href="contacto.html">Contacto</a>
-          </nav>
+          <div class="mobile-menu">
+            <img src="build/img/barras.svg" alt="icono menu" />
+          </div>
+          <div class="derecha">
+            <img
+              src="build/img/dark-mode.svg"
+              alt="dark mode"
+              class="dark-mode-boton"
+            />
+            <nav class="navegacion">
+              <a href="nosotros.html">Nosotros</a>
+              <a href="anuncios.html">Anuncios</a>
+              <a href="blog.html">Blog</a>
+              <a href="contacto.html">Contacto</a>
+            </nav>
+          </div>
         </div>
       </div>
     </header>
@@ -25,7 +35,7 @@
       <h1>Casa en venta frente al bosque</h1>
       <picture>
         <source srcset="build/img/destacada.webp" type="image/webp" />
-        <img
+        <img        
           loading="lazy"
           src="build/img/destacada.jpg"
           alt="imagen destacada"
@@ -35,11 +45,17 @@
         <p class="precio">$ 3.000.000</p>
         <ul class="iconos-caracteristicas">
           <li>
-            <img loading="lazy" src="build/img/icono_wc.svg" alt="icono WC" />
+            <img
+              class="icono"
+              loading="lazy"
+              src="build/img/icono_wc.svg"
+              alt="icono WC"
+            />
             <p>3</p>
           </li>
           <li>
             <img
+              class="icono"              
               loading="lazy"
               src="build/img/icono_estacionamiento.svg"
               alt="icono estacionamiento"
@@ -48,6 +64,7 @@
           </li>
           <li>
             <img
+              class="icono"
               loading="lazy"
               src="build/img/icono_dormitorio.svg"
               alt="icono Dormitorios"
@@ -61,7 +78,15 @@
           obcaecati ipsam tenetur, ad atque velit optio sunt maiores, maxime
           consequatur quia incidunt expedita? Ducimus cum saepe dolorum ut
           pariatur beatae atque a inventore! Quia totam ipsa quisquam,
-          blanditiis enim voluptatem consequatur?
+          blanditiis enim voluptatem consequatur? Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Reiciendis illo provident consequuntur
+          dolores minima eius itaque rem quibusdam, obcaecati ipsam tenetur, ad
+          atque velit optio sunt maiores, maxime consequatur quia incidunt
+          expedita? Ducimus cum saepe dolorum ut pariatur beatae atque a
+          inventore! Quia totam ipsa quisquam, blanditiis enim voluptatem
+          consequatur?
+        </p>
+        <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis
           illo provident consequuntur dolores minima eius itaque rem quibusdam,
           obcaecati ipsam tenetur, ad atque velit optio sunt maiores, maxime
@@ -69,14 +94,6 @@
           pariatur beatae atque a inventore! Quia totam ipsa quisquam,
           blanditiis enim voluptatem consequatur?
         </p>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis
-            illo provident consequuntur dolores minima eius itaque rem quibusdam,
-            obcaecati ipsam tenetur, ad atque velit optio sunt maiores, maxime
-            consequatur quia incidunt expedita? Ducimus cum saepe dolorum ut
-            pariatur beatae atque a inventore! Quia totam ipsa quisquam,
-            blanditiis enim voluptatem consequatur?            
-          </p>
       </div>
     </main>
 
