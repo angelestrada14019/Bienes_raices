@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<?php
+  $inicio=true;
+ include 'includes/templates/header.php'
+  ?>
+<!-- <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -18,17 +22,17 @@
           <div class="derecha">
             <img src="build/img/dark-mode.svg" alt="dark mode" class="dark-mode-boton">
             <nav class="navegacion">
-              <a href="nosotros.html">Nosotros</a>
-              <a href="anuncios.html">Anuncios</a>
-              <a href="blog.html">Blog</a>
-              <a href="contacto.html">Contacto</a>
+              <a href="nosotros.php">Nosotros</a>
+              <a href="anuncios.php">Anuncios</a>
+              <a href="blog.php">Blog</a>
+              <a href="contacto.php">Contacto</a>
             </nav>
           </div>
           
         </div>
         <h2>Venta de Casas y Departamentos Exclusivos de Lujo</h2>
       </div>
-    </header>
+    </header> -->
     <main class="contenedor seccion">
       <h1>Mas sobre Nosotros</h1>
       <div class="iconos-nosotros">
@@ -112,7 +116,7 @@
                 <p>4</p>
               </li>
             </ul>
-            <a class="boton-amarillo-block" href="anuncio.html">
+            <a class="boton-amarillo-block" href="anuncio.php">
               Ver propiedad
             </a>
           </div>
@@ -158,7 +162,7 @@
                 <p>4</p>
               </li>
             </ul>
-            <a class="boton-amarillo-block" href="anuncio.html">
+            <a class="boton-amarillo-block" href="anuncio.php">
               Ver propiedad
             </a>
           </div>
@@ -204,14 +208,14 @@
                 <p>4</p>
               </li>
             </ul>
-            <a class="boton-amarillo-block" href="anuncio.html">
+            <a class="boton-amarillo-block" href="anuncio.php">
               Ver propiedad
             </a>
           </div>
         </div>
       </div>
       <div class="alinear-derecha">
-        <a class="boton-verde" href="anuncios.html">Ver todas</a>
+        <a class="boton-verde" href="anuncios.php">Ver todas</a>
       </div>
     </section>
     <section class="imagen-contacto">
@@ -219,7 +223,7 @@
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, in.
       </p>
-      <a class="boton-amarillo" href="contacto.html">Contactános</a>
+      <a class="boton-amarillo" href="contacto.php">Contactános</a>
     </section>
     <div class="contenedor seccion seccion-inferior">
       <section class="blog">
@@ -232,7 +236,7 @@
             </picture>
           </div>
           <div class="texto-entrada">
-            <a href="entrada.html">
+            <a href="entrada.php">
               <h4>Terraza en el techo de tu casa</h4>
               <p class="informacion-meta">Escrito el: <span>20/10/2022</span> Por: <span>Admin</span></p>
               <p>
@@ -251,7 +255,7 @@
             </picture>
           </div>
           <div class="texto-entrada">
-            <a href="entrada.html">
+            <a href="entrada.php">
               <h4>Guía para la decoración de tu hogar</h4>
               <p class="informacion-meta">Escrito el: <span>20/10/2022</span> Por: <span>Admin</span></p>
               <p>
@@ -275,18 +279,6 @@
       </section>
     </div>
 
-    <footer class="footer seccion footer-margin">
-      <div class="contenedor contenedor-footer">
-        <nav class="navegacion">
-          <a href="nosotros.html">Nosotros</a>
-          <a href="anuncios.html">Anuncios</a>
-          <a href="blog.html">Blog</a>
-          <a href="contacto.html">Contacto</a>
-        </nav>
-      </div>
-      <p class="copyright">Todos los derechos Reservados 2022 &copy;</p>
-    </footer>
-
-    <script src="build/js/bundle.min.js"></script>
-  </body>
-</html>
+    <?php 
+ include 'includes/templates/footer.php'
+  ?>

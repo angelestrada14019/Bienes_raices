@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bienes Raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="contenedor contenido-header">
-        <div class="barra">
-          <a href="/"><img src="build/img/logo.svg" alt="Logo pagina"></a>
-          <div class="mobile-menu">
-            <img src="build/img/barras.svg" alt="icono menu">
-          </div>
-          <div class="derecha">
-            <img src="build/img/dark-mode.svg" alt="dark mode" class="dark-mode-boton">
-            <nav class="navegacion">
-              <a href="nosotros.html">Nosotros</a>
-              <a href="anuncios.html">Anuncios</a>
-              <a href="blog.html">Blog</a>
-              <a href="contacto.html">Contacto</a>
-            </nav>
-          </div>
-        </div>
-        
-
-      </div>
-    </header>
+<?php include 'includes/templates/header.php' ?>
     <main class="contenedor seccion contenido-centrado">
       <h1>Nuestro Blog</h1>
       <article class="entrada-blog">
@@ -39,7 +9,7 @@
           </picture>
         </div>
         <div class="texto-entrada">
-          <a href="entrada.html">
+          <a href="entrada.php">
             <h4>Terraza en el techo de tu casa</h4>
             <p class="informacion-meta">Escrito el: <span>20/10/2022</span> Por: <span>Admin</span></p>
             <p>
@@ -58,7 +28,7 @@
           </picture>
         </div>
         <div class="texto-entrada">
-          <a href="entrada.html">
+          <a href="entrada.php">
             <h4>Guía para la decoración de tu hogar</h4>
             <p class="informacion-meta">Escrito el: <span>20/10/2022</span> Por: <span>Admin</span></p>
             <p>
@@ -77,7 +47,7 @@
           </picture>
         </div>
         <div class="texto-entrada">
-          <a href="entrada.html">
+          <a href="entrada.php">
             <h4>Terraza en el techo de tu casa</h4>
             <p class="informacion-meta">Escrito el: <span>20/10/2022</span> Por: <span>Admin</span></p>
             <p>
@@ -96,7 +66,7 @@
           </picture>
         </div>
         <div class="texto-entrada">
-          <a href="entrada.html">
+          <a href="entrada.php">
             <h4>Guía para la decoración de tu hogar</h4>
             <p class="informacion-meta">Escrito el: <span>20/10/2022</span> Por: <span>Admin</span></p>
             <p>
@@ -109,18 +79,6 @@
       </article>
     </main>
 
-    <footer class="footer seccion">
-      <div class="contenedor contenedor-footer">
-        <nav class="navegacion">
-          <a href="nosotros.html">Nosotros</a>
-          <a href="anuncios.html">Anuncios</a>
-          <a href="blog.html">Blog</a>
-          <a href="contacto.html">Contacto</a>
-        </nav>
-      </div>
-      <p class="copyright">Todos los derechos Reservados 2022 &copy;</p>
-    </footer>
-
-    <script src="build/js/bundle.min.js"></script>
-  </body>
-</html>
+    <?php 
+ include 'includes/templates/footer.php'
+  ?>
